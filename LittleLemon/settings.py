@@ -159,3 +159,7 @@ REST_FRAMEWORK = {
 DJOSER = {
     "USER_ID_FIELD":"username"
 }
+
+TESTS = [
+    'restaurant.tests',
+]
